@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner.bookflightTest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="TestRunner.bookflightTest" time="48.321">
+    <testcase name="Book a flight" classname="Booking" time="47.669">
+      <error>org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-testid='tupple'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-2OH2S2RF', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\91866\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62773/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c36a9ccc13ccef19dc604a9e6a33ae2a
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

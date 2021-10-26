@@ -1,0 +1,18 @@
+package Elements;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import GenericFn.DriverFactory;
+
+public class Easytrip extends DriverFactory{
+	
+	static WebDriver driver;
+	
+	public static WebElement homepage=driver.findElement(By.xpath("//div[@class='flex flex-middle']"));
+	public static WebElement From=driver.findElement(By.xpath("//h4[text()='From']//parent::div//following-sibling::div/div/div/input"));
+	public static WebElement to=driver.findElement(By.xpath("//h4[text()='To']//parent::div//following-sibling::div/div/div/input"));
+	public static WebElement to=driver.findElement(By.xpath("//h4[text()='To']//parent::div//following-sibling::div/div/div/input"));
+
+}

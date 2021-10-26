@@ -1,0 +1,16 @@
+package GenericFn;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DriverFactory {
+
+	public void openBrowser() {
+		
+		System.setProperty("Webdriver.chrome.driver", "C://Users//91866//Documents//chromedriver_win32//chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	}
+}
